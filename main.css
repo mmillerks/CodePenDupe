@@ -1,0 +1,86 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #ffff;
+
+}
+
+.navBar {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+.navBar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar-container > .navBar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBar-container > .navBar-items > .navbar-items-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.cp-logo-header img {
+    height: 75px;
+    width: 250px;
+    background-color: white;
+}
+
+button {
+    background-color: grey;
+    font-size: 24px;
+}
+
+.navBar-buttons > button {
+    height: 50px;
+    width: 100px;
+    border: 4px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.body-container {
+    display: flex;
+    background: rgb(125,120,120);
+    background: linear-gradient(86deg, rgba(125,120,120,1) 0%, rgba(0,0,0,1) 90%);  
+}
+
+.body-container > .body-text {
+    font-size: 28pt;
+    font-weight: 100;
+    padding: 40px;
+}
+
+#body-text-bold {
+    text-decoration: underline;
+}
+
+.body-container > .body-image {
+   padding-top: 40px;
+   margin-right: 0;
+}
+
+#body-signup-button {
+    width: 275px;
+    height: 70px;
+    background-color: green !important;
+    color: black;
+    border: 1px;
+    border-radius: 2%;
+    margin-right: 10px;
+}
+
+#body-learnmore-button {
+    width: 175px;
+    height: 70px;
+    background-color: black !important;
+    box-shadow: none;
+    border: 1px;
+    border-radius: 2%;
+}
