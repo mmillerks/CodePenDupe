@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodePen</title>
+    <script src="https://kit.fontawesome.com/c4f989ed48.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@100;400;700&family=Ubuntu+Condensed&family=Work+Sans&display=swap" rel="stylesheet">
     <link href="main.css" rel="stylesheet" type="text/css" />
     <script defer src="script.js"></script>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');</style>
 </head>
 
 
@@ -16,25 +19,28 @@
     <div class="navBar">
         <div class="navBar-container">
             <div class="cp-logo-header">
-                <img src="https://i.imgur.com/eEgEALu.png" title="source: imgur.com" />
+                <img src="https://i.imgur.com/Rh0AsEx.png" title="source: imgur.com" />
             </div>
 
             <div class="navBar-items">
                 <div class="navbar-items-links">
-                    <p>Pens</p>
-                    <p>Projects</p>
-                    <p>Posts</p>
-                    <p>Collections</p>
+                    <div style="color:goldenrod; margin-left: 15px; margin-top: 20px; margin-bottom:0;">EXPLORE</div>
+                    <div class="navbar-items-subjects">
+                        <p>Pens</p>
+                        <p>Projects</p>
+                        <p>Posts</p>
+                        <p>Collections</p>
+                     </div>
                 </div>
                 
-                <div>
-                     <p>Spark</p>
+                <div class="navbar-spark">
+                     <p>Spark <i class="fa-solid fa-chevron-down"></i></p>
                 </div>
             </div>
 
             <div class="navBar-buttons">
-                <button>Create</button>
-                <button>Search</button>
+                <button>Create <i class="fa-solid fa-chevron-down"></i></button>
+                <span id="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <button>Log In</button>
                 <button>Sign Up</button>
             </div>
@@ -44,25 +50,25 @@
 
     <div class="body-container">
         <div class="body-text">
-            <p>CodePen is a <span id="body-text-bold">social development environment</span> 
-                for front-end designers and developers. <i class="fa-solid fa-hand-wave"></i></p>
-            <p><span id="body-text-resize">It's the best place to build and deploy a website, show off your work, build cases, and find inspiration.</span></p>
+            <p>CodePen is a <span id="body-text-bold">social development <br>environment</span>
+                for front-end designers <br> and developers. <img src="https://i.imgur.com/bJucMyV.png" height="36px" /></p>
+            <p><span id="body-text-resize">It's the best place to build and deploy a <br> website, show off your work, build cases, <br> and find inspiration.</span></p>
             <button id="body-signup-button">Sign Up for Free</button>
             <button id="body-learnmore-button">Learn More</button>
         </div>
 
         <div class="body-image">
-            <p>This is CodePen Projects!</p>
-            <img src="https://i.imgur.com/EobOHGT.png" width="100%"/>
+            <p>This is <span id="projects" style="color:#73D0E9;">CodePen Projects!</span></p>
+            <img src="https://i.imgur.com/EobOHGT.png" width="100%" height="80%"/>
         </div>
     </div>
 
-    <div>
-        <div>
-            <button>CodePen for TEAMS</button>
-            <button>CodePen for EDUCATION</button>
-            <button>CodePen for PRIVACY</button>
-            <button>CodePen for WRITING</button>
+    <div class="body-footer">
+        <div class="footer-buttons">
+            <button>CodePen for <span class="boldType">TEAMS</span></button>
+            <button>CodePen for <span class="boldType">EDUCATION</span></button>
+            <button>CodePen for <span class="boldType">PRIVACY</span></button>
+            <button>CodePen for <span class="boldType">WRITING</span></button>
         </div>
     </div>
 
